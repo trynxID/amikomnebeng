@@ -4,7 +4,7 @@
 <head>
     <title>Amikom Nebeng</title>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=320, initial-scale=1.0">
     <link rel="stylesheet" link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap" rel="stylesheet">
     <link rel="icon" type="image/x-icon" href="assets/amikom.png">
@@ -89,11 +89,11 @@
                         '<div class="alert alert-danger text-center" role="alert">Username or Email Invalid! </div>'; ?>
                     </span>
                     <label for="username" class="form-label">Email</label>
-                    <input type="text" class="form-control" id="email" name="email" placeholder="Enter Email" required oninvalid="this.setCustomValidity('Please Enter Email!')" oninput="this.setCustomValidity('')" />
+                    <input type="text" class="form-control" id="email" name="email" placeholder="Masukkan Email" required oninvalid="this.setCustomValidity('Silahkan Enter Email!')" oninput="this.setCustomValidity('')" />
                 </div>
                 <div class="my-3">
                     <label for="password" class="form-label">Password</label>
-                    <input type="password" class="form-control" id="password" name="password" placeholder="Enter Password" required oninvalid="this.setCustomValidity('Please Enter Password!')" oninput="this.setCustomValidity('')" />
+                    <input type="password" class="form-control" id="password" name="password" placeholder="Masukkan Password" required oninvalid="this.setCustomValidity('Silahkan Enter Password!')" oninput="this.setCustomValidity('')" />
                 </div>
                 <button type="submit" class="btn w-100 mt-4">Login</button>
             </form>

@@ -1,4 +1,24 @@
-@media (max-width: 768px) {
+body {
+  background-color: #ffffff;
+  display: flex;
+  height: 100vh;
+  align-items: top;
+  justify-content: center;
+  font-family: "Lato", sans-serif;
+  position: absolute-center;
+}
+.navbar {
+  background-color: #f1ebff !important;
+  color: black;
+}
+.nav-link {
+  color: black !important;
+}
+p {
+  font-weight: 600;
+  font-size: x-large;
+}
+@media (max-width: 600px) {
   .navbar-collapse {
     width: 100%;
     transition-timing-function: ease-out;
@@ -6,17 +26,5 @@
   .nav-item .btn {
     display: block;
     margin: 0.5rem 0;
-  }
-
-  #input-search {
-    width: 12em;
-  }
-  #banner img {
-    height: 200px;
-    width: min-content;
-  }
-  h5 {
-    font-weight: bold;
-    color: #432c7a;
   }
 }
